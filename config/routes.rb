@@ -3,6 +3,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :donations
   map.resources :avatars
   map.resources :posters
+  map.resources :arrecadamos
+  map.resources :campanha, :singular => :campanha_item
   
   map.root :controller => "home"
   map.connect ':controller/:action/:id'

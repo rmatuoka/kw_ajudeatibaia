@@ -1,0 +1,2 @@
+class ArrecadamosController < ApplicationController
+end

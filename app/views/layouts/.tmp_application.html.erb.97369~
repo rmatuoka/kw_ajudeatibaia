@@ -32,19 +32,42 @@
 <body>
 <div id="Menu">
 	<div id="ContentMenu">
-		<a href="/campanha"><img src="/images/mn_campanha.gif" /></a>
+		<a href=""><img src="/images/mn_campanha.gif" /></a>
 		<img src="/images/mn_separador.gif" style="margin:0px 22px 0px 22px;" />
 		
 		<a href="/proposta.pdf" target="_blank"><img src="/images/mn_proposta.gif" /></a>
 		<img src="/images/mn_separador.gif" style="margin:0px 22px 0px 22px;" />
 		
-		<a href="/arrecadamos"><img src="/images/mn_oque.gif" /></a>
+		<a href=""><img src="/images/mn_oque.gif" /></a>
 	</div>
 </div>
 <div id="Geral">
 	<div id="Content">
     	<div id="Selo"><img src="images/selo_header.png" /></div>
+        <div id="BoxHeader">
+            <div id="Descritivo">
+                <h1><img src="images/tit_atibaia_precisa_vc.png" title="Atibaia Precisa de Você!" alt="Atibaia Precisa de Você!" /></h1>
+            	<div>
+                	<p>
+                		Solidariedade e mobilização, palavras que representam o poder de envolver muitas pessoas em prol de uma causa, de um objetivo maior para o bem comum. E é isso que nos inspirou para criar a campanha Ajude Atibaia. Duas agências de comunicação sensibilizadas pela situação de centenas de pessoas em Atibaia por causa das constantes enchentes, resolveram agir para fazer a diferença e ajudar a quem precisa com o que fazem de melhor, <b>mobilizar</b>.
+					</p>
+                </div>
+                <span>
+                <br />
+                <!-- TWeet -->
+               	<!--
+				<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.ajudeatibaia.com.br" data-text="Eu faço parte do @ajudeatibaia, faça você também! #ajudeatibaia" data-count="horizontal" data-via="ajudeatibaia">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                -->
+				</span>
+            </div>
+            <div id="Video">
+            	<!--
+				<object width="485" height="297"><param name="movie" value="http://www.youtube.com/v/tL2d1zQzjd4?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/tL2d1zQzjd4?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="485" height="297"></embed></object>
+            	-->
+			</div>
+        </div>
         
+        <div class="clear"></div>
         
         <%=yield%>
         

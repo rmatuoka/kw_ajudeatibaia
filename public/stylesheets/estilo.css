@@ -10,13 +10,28 @@ h2
 body
 {
 	background-image:url('../images/bg_all.jpg');
-	background-position:center center;
-	background-repeat:no-repeat;
+	background-position:center top;
+	background-repeat:repeat-y;
 }
+
+#Menu
+{	
+	background-image:url('/images/bg_menu.gif');
+	background-repeat:repeat-x;
+	height:25px;
+	padding-top:5px;
+}
+	
+	#Menu #ContentMenu
+	{
+		width:986px;
+		margin:auto;
+		text-align:right;	
+	}
 
 #Geral
 {
-	background-image:url(../images/header.png);
+	background-image:url(/images/header.png);
 	background-repeat:no-repeat;
 	background-position:top center;
 	text-align:center;
@@ -175,6 +190,23 @@ body
 		width:986px;
 		height:170px;
 		margin-bottom:10px;
+	}
+
+/*INTERNAS*/
+#Geral #BoxHeader #Interna
+{
+	
+}
+
+	#Geral #BoxHeader #Interna div
+	{
+		width:861px;
+		min-height:400px;
+		height:auto;
+		margin-top:11px;
+		background-image:url(../images/bg_box_int.png);
+		background-repeat:repeat-y;
+		padding:15px;
 	}
 	
 .clear
