@@ -46,14 +46,13 @@ body
 	
 		#Geral #Content #Selo
 		{
-			margin-left:666px;
+			float:right;
+			margin-right:166px;
 		}
 		
 		#Geral #Content #Logo
 		{
-			position:absolute;
-			top:40px;
-			left:210px;
+			margin-left:80px;
 		}
 	
 	#Geral #BoxHeader
