@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Campanha Ajude Atibaia -  Compartilhe essa idéia</title>
+<link rel="stylesheet" href="css/estilo.css" />
+<%=stylesheet_link_tag "estilo"%>
+</head>
+<body>
+<div id="Geral">
+	<div id="Content">
+    	<div id="Selo"><img src="images/selo_header.png" /></div>
+        <div id="BoxHeader">
+            <div id="Descritivo">
+                <h1><img src="images/tit_atibaia_precisa_vc.png" title="Atibaia Precisa de Você!" alt="Atibaia Precisa de Você!" /></h1>
+            	<div>
+                	<p>Lorem ipsum dolor
+                        Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit.Pellentesque imperdiet, urna a aliquet 
+                        eleifend, arcu lectus porta neque, et aliquam mi nisi 
+                        eget nisi. Ut accumsan porttitor volutpat. Proin lorem 
+                        ligula, malesuada vel feugiat vel, pretiumut lorem.
+                        
+                        Phasellus rhoncus neque a leo molestie faucibus. 
+                        Integer facilisis interdum pellentesque.
+                        Vestibulum velit velit...
+					</p>
+                </div>
+                <span>
+                <br />
+                <!-- TWeet -->
+               <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.ajudeatibaia.com.br" data-text="Eu faço parte do @ajudeatibaia, faça você também! #ajudeatibaia" data-count="horizontal" data-via="ajudeatibaia">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                </span>
+            </div>
+            <div id="Video">
+            	<object width="485" height="297"><param name="movie" value="http://www.youtube.com/v/kYUpkPTcqPY?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/kYUpkPTcqPY?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="485" height="297"></embed></object>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <%=yield%>
+        
+        <div id="Apoio">
+        	
+        </div>
+        
+        <div id="Realizacao"><img src="images/realizacao.jpg" border="0" usemap="#Map" />
+          <map name="Map" id="Map">
+            <area shape="rect" coords="689,22,801,74" href="http://www.sato7.com.br" target="_blank" />
+            <area shape="rect" coords="830,25,979,71" href="http://www.korewa.com.br" target="_blank" />
+          </map>
+        </div>
+    </div>
+</div>
+</body>
+</html>

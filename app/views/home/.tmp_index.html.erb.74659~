@@ -1,0 +1,80 @@
+		<div id="BoxCentral">
+        	<div id="Divulge">
+            	<h2><img src="images/tit_divulge.gif" /></h2>
+                
+                <div style="height:125px;">
+                    <div class="texto">
+                    	<span class="titulo">Divulgue você também</span>
+                        <p>Ajude-nos a divulgar esta causa, baixe o avatar para usar em seu messenger!<br /><br /></p>
+                        <a href=""><img src="images/bt_mais.jpg" align="right" /></a>
+                    </div>
+                    <div id="imagem"><img src="images/ico_ajudei.jpg" /></div>
+                </div>
+                
+                <div class="linha"><img src="images/linha.gif" style="margin-bottom:18px;" /></div>
+                
+                <div style="height:125px;">
+                    <div class="texto">
+                    	<span class="titulo">Divulgue você também</span>
+                        <p>Divulgue a campanha em seu estabelecimento, baixe o cartaz em alta definição.<br /><br /></p>
+                        <a href=""><img src="images/bt_mais.jpg" align="right" /></a>
+                    </div>
+                    <div id="imagem"><img src="images/ico_cartaz.jpg" /></div>
+                </div>
+            </div>
+            
+            <div id="Doar">
+            	<h2><img src="images/tit_doar.gif" /></h2>
+                <p>Nome:</p>
+                <input type="text" class="form" />
+                <p>Email:</p>
+                <input type="text" class="form" />
+                <p>Telefone:</p>
+                <input type="text" class="tel1" /> <input type="text" class="tel2" />
+                <p><textarea class="mensagem"></textarea></p>
+                <p align="right" style="padding-right:8px;"><img src="images/bt_ajudar.jpg" /></p>
+            </div>
+            
+            <div id="Redes">
+            <h2><img src="images/tit_redes.gif" /></h2>
+            	<div id="Twitter">
+                	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+					<script>
+                    new TWTR.Widget({
+                      version: 2,
+                      type: 'search',
+                      search: '#ajudeatibaia',
+                      interval: 6000,
+                      title: 'Campanha Ajude Atibaia',
+                      subject: 'Ajude Atibaia',
+                      width: 200,
+                      height: 190,
+                      theme: {
+                        shell: {
+                          background: '#8ec1da',
+                          color: '#ffffff'
+                        },
+                        tweets: {
+                          background: '#ffffff',
+                          color: '#444444',
+                          links: '#1985b5'
+                        }
+                      },
+                      features: {
+                        scrollbar: false,
+                        loop: true,
+                        live: true,
+                        hashtags: true,
+                        timestamp: true,
+                        avatars: true,
+                        toptweets: true,
+                        behavior: 'default'
+                      }
+                    }).render().start();
+                    </script>
+                </div>
+                <div id="Facebook">
+                <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAjude-Atibaia%2F143312722394095&amp;width=200&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=260" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:260px;" allowTransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
