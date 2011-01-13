@@ -35,6 +35,8 @@ body
 	background-repeat:no-repeat;
 	background-position:top center;
 	text-align:center;
+	width:100%;
+	min-width:986px;
 }
 
 	#Geral #Content
