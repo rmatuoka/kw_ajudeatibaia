@@ -14,7 +14,7 @@ function Validar()
                     <div class="texto">
                     	<span class="titulo">Divulgue você também</span>
                         <p>Ajude-nos a divulgar esta causa, baixe o avatar para usar em seu messenger!<br /><br /></p>
-                        <a href="/images/Avatar.jpg" target="_blank"><img src="images/bt_mais.jpg" align="right" /></a>
+                        <%=link_to(image_tag("bt_mais.jpg"), avatars_path)%>
                     </div>
                     <div id="imagem"><img src="images/ico_ajudei.jpg" /></div>
                 </div>
@@ -25,7 +25,7 @@ function Validar()
                     <div class="texto">
                     	<span class="titulo">Divulgue você também</span>
                         <p>Divulgue a campanha em seu estabelecimento, baixe o cartaz em alta definição.<br /><br /></p>
-                        <a href="/images/cartaz3.jpg" target="_blank"><img src="images/bt_mais.jpg" align="right" /></a>
+                        <%=link_to(image_tag("bt_mais.jpg"), posters_path)%>
                     </div>
                     <div id="imagem"><img src="images/ico_cartaz.jpg" /></div>
                 </div>
