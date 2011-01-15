@@ -1,0 +1,17 @@
+		<div id="BoxHeader">
+            <div id="Interna">
+                <!-- <h1><img src="images/tit_oque.png" title="O que arrecadamos?" alt="O que arrecadamos?" /></h1> -->
+            	<div>
+                	<p>
+                		<%@videos.each do |v|%>
+							<h2><%=v.name%></h2><br/>
+							<%=v.embed%><br/>
+							<br/><br/>
+						<%end%>
+					</p>
+                </div>
+                <span>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
