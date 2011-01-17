@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Campanha Ajude Atibaia -  Compartilhe essa idéia</title>
+<%=stylesheet_link_tag "estilo"%>
+<%= javascript_include_tag :defaults %>
+<%=yield :head%>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10816424-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<meta name="title" content="Campanha Ajude Atibaia - Compartilhe esta idéia" />
+<meta name="url" content="http://www.ajudeatibaia.com.br" />
+<meta name="description" content="Campanha de mobilização social para auxílio aos moradores de Atibaia afetados pelos alagamentos causados pelas chuvas." />
+<meta name="keywords" content="enchente, alagamento, atibaia, doação, ajuda, solidariedade" />
+<meta name="autor" content="Rafael Matuoka Chiocchetti" />
+<meta name="company" content="Korewa Web" />
+<meta name="revisit-after" content="5" />
+<link rev="made" href="mailto:rmatuoka@korewa.com.br" />
+</head>
+<body>
+<div id="Menu">
+	<div id="ContentMenu">
+		<a href="/campanha"><img src="/images/mn_campanha.gif" /></a>
+		<img src="/images/mn_separador.gif" style="margin:0px 22px 0px 22px;" />
+		
+		<a href="/proposta.pdf" target="_blank"><img src="/images/mn_proposta.gif" /></a>
+		<img src="/images/mn_separador.gif" style="margin:0px 22px 0px 22px;" />
+		
+		<a href="/arrecadamos"><img src="/images/mn_oque.gif" /></a>
+	</div>
+</div>
+<div id="Geral">
+	<div id="Content">
+		<div id="Selo"><img src="images/selo_header.png" /></div>
+		<div id="Logo"><%=link_to(image_tag("logo.png"), "/")%></div>
+    
+        <%=yield%>
+        
+        <div id="Apoio">
+        	<%=image_tag "tit_apoio.gif", :style => "margin-top:10px;"%>
+        	<div style="position:relative; width:960px; height:150px; clip:rect(0px, 900px, 150px, 0px); overflow:hidden;">
+				<div style="position:absolute; top:-50px;">
+					<object id="myFlashMovie" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="978" height="440" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0">
+					<param name="movie" value="flashmo_057_carousel_xml.swf" />
+					<param name="quality" value="high" />
+					<param name="wmode" value="transparent" /> 
+					<embed type="application/x-shockwave-flash" width="978" height="440" src="flashmo_057_carousel_xml.swf" name="myFlashMovie" quality="high" wmode="transparent" allowscriptaccess="sameDomain" pluginspage="http://www.macromedia.com/go/getflashplayer" align="middle"></embed>
+					</object>
+				</div>
+        	</div>
+        </div>
+        
+        <div id="Realizacao"><img src="images/realizacao.jpg" border="0" usemap="#Map" />
+          <map name="Map" id="Map">
+            <area shape="rect" coords="689,22,801,74" href="http://www.sato7.com.br" target="_blank" />
+            <area shape="rect" coords="830,25,979,71" href="http://www.korewa.com.br" target="_blank" />
+          </map>
+        </div>
+    </div>
+</div>
+</body>
+</html>
