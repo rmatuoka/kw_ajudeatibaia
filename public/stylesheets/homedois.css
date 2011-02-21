@@ -1,0 +1,359 @@
+body, td, div, span, a, input, textarea   {font-family:Verdana; font-size:12px; color:#545454;}
+img											{border:none;}
+body, ul,li,p, h1, h2										{margin:0px; padding:0px;}
+
+h2
+{
+	margin-bottom:12px;
+}
+
+body
+{
+	background-image:url('../images/bg_all2.jpg');
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+
+#Menu
+{	
+	background-image:url('../images/bg_menu.gif');
+	background-repeat:repeat-x;
+	height:25px;
+	padding-top:5px;
+}
+	
+	#Menu #ContentMenu
+	{
+		width:986px;
+		margin:auto;
+		text-align:right;	
+	}
+
+#Geral
+{
+	background-image:url(../images/header.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	text-align:center;
+	width:100%;
+	min-width:986px;
+}
+
+	#Geral #Content
+	{	
+		width:986px;
+		margin:auto;
+		text-align:left;
+	}
+	
+		#Geral #Content #Selo
+		{
+			float:right;
+			margin-right:146px;
+			margin-top:30px;
+		}
+		
+		#Geral #Content #Logo
+		{
+			margin-left:310px;
+			margin-bottom:-20px;
+		}
+	
+	#Geral #BoxHeader
+	{
+		width:885px;
+		margin-top:80px;
+		margin-left:45px;
+	}	
+		#Geral #BoxHeader #Descritivo
+		{
+			float:left;
+			width:345px;
+		}
+		
+			#Geral #BoxHeader #Descritivo div
+			{
+				width:341px;
+				height:200px;
+				margin-top:11px;
+				background-image:url(../images/bg_texto_home.png);
+				background-repeat:no-repeat;
+				padding-top:5px;
+			}
+			
+			#Geral #BoxHeader #Descritivo div p
+			{
+				margin:10px 10px 10px 10px;
+			}
+		
+		#Geral #BoxHeader #Video
+		{
+			float:right;
+			width:499px;
+			height:307px;
+			background-image:url(../images/bg_video.jpg);
+			background-repeat:no-repeat;
+			padding:6px 0px 0px 6px;
+		}
+		
+	#Geral #BoxCentral
+	{
+		margin-top:50px;
+		padding-top:15px;
+		width:985px;
+		height:396px;
+		background-image:url(../images/bg_box.jpg);
+		background-repeat:no-repeat;
+	}
+	
+	#Geral #BoxCentral #Divulge
+	{
+		width:281px;
+		height:335px;
+		display: -moz-inline-stack;
+		display:inline-block;
+		vertical-align:top;
+		margin-left:17px;
+		zoom: 1;
+        *display: inline;
+	}
+	
+		#Geral #BoxCentral #Divulge .imagem
+		{
+			width:94px;
+			height:94px;
+			float:left;
+		}
+		
+		#Geral #BoxCentral #Divulge .texto
+		{
+			width:178px;
+			float:right;
+		}
+		
+		#Geral #BoxCentral #Divulge .titulo
+		{
+			margin-bottom:12px;
+			display:block;
+			font-family:Verdana !important;
+			font-size:12px !important;
+			color:#0070da !important;
+
+		}
+	
+	#Geral #BoxCentral #Redes
+	{
+		width:419px;
+		height:335px;
+		display: -moz-inline-stack;
+		display:inline-block;
+		vertical-align:top;
+		zoom: 1;
+        *display: inline;
+	}
+	
+	#Geral #BoxCentral #Doar
+	{
+		width:190px;
+		height:335px;
+		display:inline-block;
+		vertical-align:top;
+		margin:0px 30px 0px 30px;
+		zoom: 1;
+        *display: inline;
+	}
+	
+		#Geral #BoxCentral #Doar p
+		{
+			font-family:Verdana !important;
+			font-size:12px !important;
+			color:#0070da !important;
+		}
+	
+	#Geral #BoxCentral #Redes #Twitter
+	{
+		width:200px;
+		height:260px;
+		display: -moz-inline-stack;
+		display:inline-block;
+		vertical-align:top;
+		zoom: 1;
+        *display: inline;
+	}
+	
+	#Geral #BoxCentral #Redes #Facebook
+	{
+		width:200px;
+		height:260px;
+		display: -moz-inline-stack;
+		display:inline-block;
+		vertical-align:top;
+		background-color:#fff;
+		zoom: 1;
+        *display: inline;
+	}
+	
+	#Geral #Apoio
+	{
+		background-color:#fff;
+		width:986px;
+		height:auto;
+		margin-top:60px;
+		margin-bottom:10px;
+	}
+	
+	#Geral #Apoio p
+	{
+		font-family:Arial, Helvetica, sans-serif !important;
+		font-size:15px !important;
+		color:#0070da !important;
+		text-align:justify;
+	}
+	#Box_apoio
+	{
+		width:935px;
+		height:auto;
+		margin:auto;
+	}
+	.table
+	{
+		margin:auto;
+		border-collapse:collapse;
+		border-top:#e6f0ff solid 10px;
+		border-left:#e6f0ff solid 4px;
+		border-bottom:#e6f0ff solid 10px;
+
+	}	
+	.wred
+	{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:15px;
+		color:#F00;
+		height:auto;
+		width:auto;
+		padding-left:10px;
+	}	
+	.wht
+	{
+		background-color:#fff;
+	}	
+	.wgray
+	{
+		border-left:#FFF solid 4px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:15px;
+		color:#575757;
+		padding-left:10px;
+	}
+	.gry
+	{
+		background-color:#e6f0ff;
+	}		
+#Fot
+{
+	background-color:#
+	display:inline-block;
+	width:986px;
+	height:70px;
+	margin:auto;
+}
+		#Fot_box
+		{
+			font-family:Arial, Helvetica, sans-serif !important;
+			font-size:12px !important;
+			color:#fff !important;
+			text-align:left;			
+			width:160px;
+			height:auto;
+			margin:auto;
+			margin-right:45px;
+			float:right;
+		}
+		#Fot_box2
+		{
+			font-family:Arial, Helvetica, sans-serif !important;
+			font-size:18px !important;
+			color:#0070da !important;
+			text-align:justify;
+			width:300px;
+			height:auto;
+			margin:auto;
+			padding-top:20px;
+		}
+	#Geral #Fot a
+	{
+		font-family:Arial, Helvetica, sans-serif !important;
+		font-size:12px !important;
+		color:#fff !important;
+		text-align:left;	
+		text-decoration:none;
+	}
+/*INTERNAS*/
+#Geral #BoxHeader #Interna
+{
+	
+}
+
+	#Geral #BoxHeader #Interna div
+	{
+		width:861px;
+		min-height:400px;
+		height:auto;
+		margin-top:11px;
+		background-image:url(../images/bg_box_int.png);
+		background-repeat:repeat-y;
+		padding:15px;
+		margin-bottom:20px;
+	}
+	
+.clear
+{
+	clear:both;	
+}
+
+.linha
+{
+	clear:both;
+	margin:9px 0px 9px 0px;	
+}
+
+.form
+{
+	width:179px;
+	height:20px;
+	background-image:url(../images/form_1.gif);
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+}
+
+
+.mensagem
+{
+	width:181px;
+	height:136px;
+	background-image:url(../images/form_2.gif);
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+}
+
+.tel1
+{
+	width:30px;
+	height:20px;
+	background-image:url(../images/form_tel1.gif);
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+}
+
+.tel2
+{
+	width:84px;
+	height:20px;
+	background-image:url(../images/form_tel2.gif);
+	background-repeat:no-repeat;
+	border:none;
+	background-color:transparent;
+}
